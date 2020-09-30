@@ -1,0 +1,6 @@
+ALTER TABLE table_name
+    ADD CONSTRAINT fk_foreign_key_name
+    FOREIGN KEY (foreign_key_name)
+    REFERENCES target_table(target_key_name);
+ALTER TABLE videos ADD CONSTRAINT idUser FOREIGN KEY (idUser) REFERENCES users(idUser)
+ALTER TABLE videos ADD CONSTRAINT idQuestion FOREIGN KEY (idQuestion) REFERENCES questions(idQuestion)
