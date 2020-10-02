@@ -1,4 +1,4 @@
-const mysql = require("mysql");
+const mysql = require("mysql2");
 //connexion to bd
  connexion = mysql.createConnection({
   database: "traininginterviewdb",
