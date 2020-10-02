@@ -7,7 +7,7 @@ const cors = require("cors");
 //Instantiate server
 const server = express();
 //port
-const port = 7000;
+const port = 3001;
 //body-parser configuration
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
