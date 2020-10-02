@@ -19,5 +19,5 @@ server.use("/api/",apiRouter);
 //Launch server
 server.listen(port, res => {
   console.log("Serveur fonctionne sur le port " + port);
-  console.log("test");
+  console.log("test1");
 });
